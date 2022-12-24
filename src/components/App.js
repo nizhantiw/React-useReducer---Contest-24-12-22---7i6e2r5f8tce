@@ -8,6 +8,11 @@ const ACTIONS = {
   SET_SUB_NUM: "setSubNum",
   SET_ADD_NUM: "setAddNum"
 };
+const initialState={
+  count: 10,
+  subNum: 1,
+  addNum: 1
+};
 function reducer(state, action) {
   switch (action.type) {
     case ACTIONS.INCREMENT:
